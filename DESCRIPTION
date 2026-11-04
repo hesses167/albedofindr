@@ -1,0 +1,12 @@
+Type: Package
+Package: albedofindr
+Title: Calculates Albedo for Landsat Satellites
+Version: 0.0.0.9000
+Authors@R: 
+    person("Sara", "Hesse", , "hesses@mcmaster.ca", role = c("aut", "cre"))
+Description: Calculates albedo based on region of interest, dates of
+    acquisition, and type of Landsat satellite.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Config/roxygen2/version: 8.1.1
