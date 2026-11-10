@@ -29,8 +29,7 @@ is calculated as follows for Landsat 5 and 7 as (in ENVI bands):
 
 For Landsat 8, *B1* is replaced with *B2*. This is because the *Coastal
 Aerosol* band was introduced as *B1* in Landsat 8 and 9, and the *Blue*
-band (![B1](https://latex.codecogs.com/png.latex?B1 "B1") in Landsat 5
-and 7) was moved to *B2* in Landsat 8 and 9.
+band (*B1* in Landsat 5 and 7) was moved to *B2* in Landsat 8 and 9.
 
 **IMPORTANT CAVEAT** : Liang et al (2001) tends to overestimate albedo
 (when compared to MODIS), especially in the winter. It is highly
