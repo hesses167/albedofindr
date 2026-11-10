@@ -27,13 +27,10 @@ is calculated as follows for Landsat 5 and 7 as (in ENVI bands):
 
 ![\frac{0.356 \cdot B1 + 0.130 \cdot B2 + 0.373 \cdot B3 + 0.085 \cdot B4 + 0.072 \cdot B5 - 0.0018}{1.016}](https://latex.codecogs.com/png.latex?%5Cfrac%7B0.356%20%5Ccdot%20B1%20%2B%200.130%20%5Ccdot%20B2%20%2B%200.373%20%5Ccdot%20B3%20%2B%200.085%20%5Ccdot%20B4%20%2B%200.072%20%5Ccdot%20B5%20-%200.0018%7D%7B1.016%7D "\frac{0.356 \cdot B1 + 0.130 \cdot B2 + 0.373 \cdot B3 + 0.085 \cdot B4 + 0.072 \cdot B5 - 0.0018}{1.016}")
 
-For Landsat 8, ![B1](https://latex.codecogs.com/png.latex?B1 "B1") is
-replaced with ![B2](https://latex.codecogs.com/png.latex?B2 "B2"). This
-is because the *Coastal Aerosol* band was introduced as
-![B1](https://latex.codecogs.com/png.latex?B1 "B1") in Landsat 8 and 9,
-and the *Blue* band (![B1](https://latex.codecogs.com/png.latex?B1 "B1")
-in Landsat 5 and 7) was moved to
-![B2](https://latex.codecogs.com/png.latex?B2 "B2") in Landsat 8 and 9.
+For Landsat 8, *B1* is replaced with *B2*. This is because the *Coastal
+Aerosol* band was introduced as *B1* in Landsat 8 and 9, and the *Blue*
+band (![B1](https://latex.codecogs.com/png.latex?B1 "B1") in Landsat 5
+and 7) was moved to *B2* in Landsat 8 and 9.
 
 **IMPORTANT CAVEAT** : Liang et al (2001) tends to overestimate albedo
 (when compared to MODIS), especially in the winter. It is highly

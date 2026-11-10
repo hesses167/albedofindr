@@ -30,7 +30,7 @@ $$
 \frac{0.356 \cdot B1 + 0.130 \cdot B2 + 0.373 \cdot B3 + 0.085 \cdot B4 + 0.072 \cdot B5 - 0.0018}{1.016}
 $$
 
-For Landsat 8, $B1$ is replaced with $B2$. This is because the *Coastal Aerosol* band was introduced as $B1$ in Landsat 8 and 9, and the *Blue* band ($B1$ in Landsat 5 and 7) was moved to $B2$ in Landsat 8 and 9. 
+For Landsat 8, *B1* is replaced with *B2*. This is because the *Coastal Aerosol* band was introduced as *B1* in Landsat 8 and 9, and the *Blue* band ($B1$ in Landsat 5 and 7) was moved to *B2* in Landsat 8 and 9. 
 
 **IMPORTANT CAVEAT** : Liang et al (2001) tends to overestimate albedo (when compared to MODIS), especially in the winter. It is highly recommended to only use this package for summer albedo calculations. While the calculation within the package is clamped to [0,1], the equation itself is unbounded, and is therefore, unreliable. The equation was also derived only using summer imagery.
 
