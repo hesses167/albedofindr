@@ -1,14 +1,24 @@
-Type: Package
 Package: albedofindr
-Title: Calculates Albedo for Landsat Satellites
+Title: Calculate Albedo from Landsat 5, 7, and 8 Data
 Version: 0.0.0.9000
 Authors@R: 
     person("Sara", "Hesse", , "hesses@mcmaster.ca", role = c("aut", "cre"))
-Description: Calculates albedo based on region of interest, dates of
-    acquisition, and type of Landsat satellite.
+Description: This packages calculates albedo from Landsat 5, 7, and 8 using narrowband-to-broadband conversion, and Liang et al's (2000) linear regression for calculating albedo.
 License: MIT + file LICENSE
-Encoding: UTF-8
-LazyData: true
 Config/roxygen2/version: 8.1.1
-URL: https://github.com/hesses167/albedofindr
-BugReports: https://github.com/hesses167/albedofindr/issues
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Depends: 
+    R (>= 3.5)
+LazyData: true
+Suggests: 
+    geojsonio,
+    googledrive,
+    sf,
+    stars,
+    terra,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    lubridate,
+    rgee
