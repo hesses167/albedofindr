@@ -1,6 +1,6 @@
 Package: albedofindr
 Title: Calculate Albedo from Landsat 5, 7, and 8 Data
-Version: 0.0.0.9000
+Version: 0.0.0.9100
 Authors@R: 
     person("Sara", "Hesse", , "hesses@mcmaster.ca", role = c("aut", "cre"))
 Description: This packages calculates albedo from Landsat 5, 7, and 8 using narrowband-to-broadband conversion, and Liang et al's (2000) linear regression for calculating albedo.
@@ -14,6 +14,8 @@ LazyData: true
 Suggests: 
     geojsonio,
     googledrive,
+    knitr,
+    rmarkdown,
     sf,
     stars,
     terra,
@@ -22,3 +24,4 @@ Config/testthat/edition: 3
 Imports: 
     lubridate,
     rgee
+VignetteBuilder: knitr

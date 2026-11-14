@@ -18,7 +18,6 @@ usethis::use_data(sample_polygon_1995, overwrite = TRUE)
 ## somewhat arbitrarly for illustrative purposes, but mostly because my dear
 ## partner was born in 1997 :)
 
-library(terra)
 
-median_albedo_1995fireyear_1997img <- "./data-raw/median_albedo_1995fireyear_1997img.tif"
-usethis::use_data(median_albedo_1995fireyear_1997img, overwrite = TRUE)
+
+

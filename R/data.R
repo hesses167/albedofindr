@@ -11,13 +11,4 @@
 "sample_polygon_1995"
 
 
-#' Median Albedo 1995 Fire Year, 1997 Image
-#'
-#' A TIF file containing median albedo for 1997, two years post fire
-#' @format A SpatRaster object with 1 layer containing median albedo:
-#' \describe{
-#'    \item{med_albedo}{Median albedo at resolution set by user}
-#' }
-#' @keywords datasets
-#' @source generated with albedofindr, through GEE
-"median_albedo_1995fireyear_1997img"
+
