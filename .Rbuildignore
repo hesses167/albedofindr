@@ -4,3 +4,5 @@
 ^README\.Rmd$
 ^data-raw$
 ^albedofindr\.Rproj$
+^doc$
+^Meta$
